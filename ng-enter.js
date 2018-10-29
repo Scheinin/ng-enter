@@ -1,7 +1,7 @@
 /**
  * Created by scheinin on 10/29/18.
  */
-myApp.directive('appEnter', function () {
+myApp.directive('ngEnter', function () {
     return function (scope, element, attrs) {
         element.attr('tabindex', 0).css('outline', 'none').focus();
 
